@@ -218,6 +218,7 @@ int getop(char s[])
   else
   {
     c = getch();
+    ungetch(c);
   }
 
   if (isdigit(c))
